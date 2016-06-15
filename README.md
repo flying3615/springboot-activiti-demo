@@ -9,3 +9,16 @@ After sprint boot running, exec
 ```curl -H "Content-Type: application/json" -d '{"assignee" : "jbarrez"}' http://localhost:8080/process```   
 ```curl http://localhost:8080/tasks?assignee=1```  
 which could return ```[{"id":"12505","name":"my task"}]```
+
+```java
+	@Bean
+	public DataSource database() {
+		return DataSourceBuilder.create()
+				.url("jdbc:mysql://127.0.0.1:3306/activiti?characterEncoding=UTF-8")
+				.username("root")
+				.password("centling")
+				.driverClassName("com.mysql.jdbc.Driver")
+				.build();
+	}
+```
+
