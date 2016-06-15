@@ -10,6 +10,8 @@ After sprint boot running, exec
 ```curl http://localhost:8080/tasks?assignee=1```  
 which could return ```[{"id":"12505","name":"my task"}]```
 
+pls notice the DB config in DemoApplication to change to yours
+
 ```java
 	@Bean
 	public DataSource database() {
