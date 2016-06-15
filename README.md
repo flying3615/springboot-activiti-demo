@@ -1,5 +1,5 @@
 # springboot-activiti-demo  
-![Activiti logo](doc/images/activiti-logo.png)  
+![Activiti logo](images/activiti-logo.png)  
 
 this project is inspired by [activiti springboot integration doc example](http://activiti.org/userguide/index.html#springSpringBoot)
 and this [git repo](https://github.com/jbarrez/spring-boot-with-activiti-example) could be helpful, pls find more in it.  
